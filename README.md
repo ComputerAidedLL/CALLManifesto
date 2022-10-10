@@ -10,18 +10,23 @@ Here are some examples of such interactions:
 ## [Click and Collect](https://github.com/ComputerAidedLL/click-and-collect)
 *categories: interactive prover / graphical interface*
 
-Web-based interactive theorem prover for linear logic. It includes some automated features, export to `NanoYalla` kernel and other formats, proof transformations (cut elimination, axiom expansion, etc.).
+Web-based interactive theorem prover for linear logic. It includes some automated features, export to [`NanoYalla`](https://github.com/ComputerAidedLL/nanoyalla) kernel and other formats, proof transformations (cut elimination, axiom expansion, etc.).
 
 ## [LL Keyboard](https://github.com/ComputerAidedLL/LLKeyboard)
 *categories: tool / interface*
 
 Keypad configuration files to get direct access to UTF-8 linear-logic-related symbols.
 
-## [Yalla](https://github.com/olaure01/yalla)
+## [NanoYalla](https://github.com/ComputerAidedLL/nanoyalla)
 *categories: formalization, kernel*
 
-A [Coq](https://coq.inria.fr/) formalization (deep embedding) of Linear Logic.
-It includes `NanoYalla`, a kernel formalization.
+Kernel formalization of propositional Linear Logic in [Coq](https://coq.inria.fr/).
+
+## [Yalla](https://github.com/olaure01/yalla)
+*categories: formalization*
+
+[Coq](https://coq.inria.fr/) formalization (deep embedding) of Linear Logic.
+It includes part of [`NanoYalla`](https://github.com/ComputerAidedLL/nanoyalla).
 
 ## Related projects (preliminary list)
 **Natural candidates for integration in the CALL framework**
